@@ -1,0 +1,216 @@
+*{padding: 0;margin: 0;}
+body{font-size: 12px;background-color: #000}
+h1{font-size: 12px;text-indent: 4px;display: block;color:white;background-color: #1E3655;height:20px;float: left;}
+h6{font-size: 22px;text-align: center;line-height:40px;color:white;}
+ul{list-style-type: none;color:white;}
+#bobobe{
+	width:1100px;
+	height:640px;
+	margin:0 auto;
+	background-color: #060301;
+	padding:20px;
+}
+#bobobe .readyBox{
+    width:1100px;
+    height:640px;
+    position: relative;
+    margin: 0 auto;
+}
+#bobobe .readyBox .ourHero,
+#bobobe .readyBox .theyHero{
+	width:220px;
+	height:460px;
+	background-color: #000;
+	margin-bottom:10px;
+	float: left;
+}
+#showHero{
+    width:260px;
+    height:390px;
+    position: absolute;
+    z-index: 999;
+    left:860px;
+}
+#hero3,#theyHero3{
+	margin:10px 0px;
+}
+#hero1,#theyHero1,#hero4,#theyHero4{
+	margin-bottom: 10px;
+}
+#bobobe .readyBox .ourHero .hero,
+#bobobe .readyBox .theyHero .hero{
+	width:220px;
+	height:64px;
+	padding:10px 0px; 
+	background-color:#212121;
+}
+#bobobe .readyBox .ourHero .heroinin{
+	background-color: #CE681A;
+}
+#bobobe .readyBox .ourHero .hero .heroBody,
+#bobobe .readyBox .theyHero .hero .heroBody{
+    width:102px;
+    height:64px;
+    margin: 0 auto;
+}
+#bobobe .readyBox .ourHero .hero .heroBody .heroIn,
+#bobobe .readyBox .theyHero .hero .heroBody .heroIn{
+	width:64px;
+	height:64px;
+	float:left;
+	margin-right:8px;
+}
+#bobobe .readyBox .ourHero .hero .heroBody .heroIn img,
+#bobobe .readyBox .theyHero .hero .heroBody .heroIn img{
+    width:64px;
+    height:64px;
+}
+#bobobe .readyBox .ourHero .hero .heroBody .heroOn,
+#bobobe .readyBox .theyHero .hero .heroBody .heroOn,
+#bobobe .readyBox .ourHero .hero .heroBody .heroOn2,
+#bobobe .readyBox .theyHero .hero .heroBody .heroOn2{
+	width:30px;
+	height:30px;
+	background-color:#000000;
+	float: left;
+}
+#bobobe .readyBox .ourHero .hero .heroBody .heroOn img,
+#bobobe .readyBox .ourHero .hero .heroBody .heroOn2 img{
+    width:30px;
+    height:30px;
+}
+#bobobe .readyBox .ourHero .hero .heroBody .heroOn,
+#bobobe .readyBox .theyHero .hero .heroBody .heroOn{
+	margin-bottom:4px;
+}
+#bobobe .readyBox .ourChouse{
+	width:640px;
+	height:460px;
+	margin:0px 10px 10px 10px;
+	float: left;
+	position: relative;
+}
+#bobobe .readyBox .ourChouse .fly{
+	position: absolute;
+	width:638px;
+	height:198px;
+	background-color:#ccc;
+	top:234px;
+	border:1px solid #1E3655;
+}
+#bobobe .readyBox .ourChouse .fly h1{
+	width:640px;
+}
+#bobobe .readyBox .ourChouse .fly .flyImg{
+	width:618px;
+	height:168px;
+	padding: 10px;
+}
+#bobobe .readyBox .ourChouse .time{
+	width:100px;
+	height:40px;
+	float: left;
+	background-color: #E57F25;
+}
+#bobobe .readyBox .ourChouse .saygo{
+	width: 530px;
+	height:40px;
+	background-color: #202020;
+	float: left;
+	margin:0px 0px 5px 10px;
+}
+#bobobe .readyBox .ourChouse .sayChouse{
+	width:638px;
+	height:413px;
+	float: left;
+	border: 1px solid #625F5D;
+	background-color: #020202;
+}
+#bobobe .readyBox .ourChouse .sayChouse .heroLogo{
+	width:150px;
+	height:40px;
+	float: left;
+	background-color: #DC7722;
+	line-height: 40px;
+	text-align: center;	
+}
+#bobobe .readyBox .ourChouse .sayChouse .heroLogo h3{
+    color:#301907;
+}
+#bobobe .readyBox .ourChouse .sayChouse h2{
+	display: block;
+	width:638px;
+	height:10px;
+	float: left;
+	background-color: #DC7722; 
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseBody{
+	padding:10px 0px;
+	width:638px;
+	height:233px;
+	float:left;
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseBody img{
+	width:60px;
+	height:60px;
+	margin:0px 0px 10px 11px;
+	border:1px solid #ccc;
+	cursor: pointer;
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure{
+	width:638px;
+	height:100px;
+	float: left;
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure .left,
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure .center,
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure .right
+{
+	width:212px;
+	height:100px;
+	text-align: center;
+	color:white;	
+	float:left;
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure .left select{
+    width:212px;
+    margin-top:10px;
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure .center img{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	cursor: pointer;
+}
+#bobobe .readyBox .ourChouse .sayChouse .chouseSure .right a{
+	display: block;
+	width:150px;
+	height:30px;
+	background-color: #ccc;
+	color:#ADA2A2;
+	margin-top: 35px;
+	line-height: 30px;
+}
+#bobobe .readyBox .yourinformation,
+#bobobe .readyBox .mapinformation{
+	width:226px;
+	height:166px;
+	background-color:#020101;
+	float:left;
+	border:2px solid #1E3655;
+}
+#bobobe .readyBox .yourinformation h1,
+#bobobe .readyBox .mapinformation h1{
+	width:226px;
+}
+#bobobe .readyBox .send{
+	width:616px;
+	height:166px;
+	background-color:#020101;
+    float:left;
+    margin:0px 10px;
+    border:2px solid #1E3655;
+}
+#bobobe .readyBox .send h1{
+	width:616px;
+}
